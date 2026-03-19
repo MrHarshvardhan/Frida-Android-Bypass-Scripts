@@ -83,19 +83,6 @@ frida -H 127.0.0.1:4444 -f com.target.app -l script.js
 
 ---
 
-## Scripts Included
-
-| Script Name     | Description                         |
-| --------------- | ----------------------------------- |
-| root_bypass.js  | Bypass common root detection checks |
-| ssl_bypass.js   | Universal SSL pinning bypass        |
-| proxy_bypass.js | Bypass proxy detection              |
-| debug_bypass.js | Disable debugger checks             |
-
----
-
-## Common Bypasses Covered
-
 ### Root Detection
 
 * Build tags check
@@ -161,7 +148,3 @@ Feel free to submit PRs with:
 * Support for new frameworks
 
 ---
-
-## Author
-
-Harsh – Offensive Security Specialist
